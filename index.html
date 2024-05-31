@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+  <title>Myteacher - Catálogo de Professores</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <img class="logo" src="assets/img/logo_myteacher.png" alt="Logo do site MyTeacher">
+    <span>Encontre o professor perfeito!</span>
+  </header>
+  <main>
+    <section class="teacher-container">
+      <img class="teacher-img" src="assets/img/foto_professor_1.png" alt="Foto de rosto do Professor João da Silva">
+      <p><strong class="teacher-name">João da Silva</strong></p>
+      <p class="teacher-price">R$ 100,00 por hora</p>
+      <p class="teacher-description">Professor de Inglês, já morou nos Estados Unidos e Inglaterra.</p>
+      <form class="teacher-contract">
+        <input type="hidden" value="100" name="price">
+        <input type="number" class="teacher-contract-hours" name="hours" id="" placeholder="Quantidade de horas" min="1" max="3" required>
+        <button type="submit" class="teacher-contract-button">Calcular valor total</button>
+      </form>
+    </section>
+
+    <section class="teacher-container">
+      <img class="teacher-img" src="assets/img/foto_professor_2.png" alt="Foto de rosto da Professora Maria da Silva">
+      <p><strong class="teacher-name">Maria da Silva</strong></p>
+      <p class="teacher-price">R$ 90,00 por hora</p>
+      <p class="teacher-description">Professor de Inglês, já morou nos Estados Unidos e Inglaterra.</p>
+      <form class="teacher-contract">
+        <input type="hidden" value="90" name="price">
+        <input type="number" class="teacher-contract-hours" name="hours" id="" placeholder="Quantidade de horas" min="1" max="3" required>
+        <button type="submit" class="teacher-contract-button">Calcular valor total</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Coder by Thais Oliveira</p>
+  </footer>
+  <script src="assets/js/script.js" type="text/javascript"></script>
+</body>
+</html>
